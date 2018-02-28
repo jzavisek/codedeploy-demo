@@ -5,10 +5,9 @@ cd /home/ec2-user/test-server
 chmod -R +x scripts/
 
 # install node
-curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.6/install.sh | bash
-. ~/.nvm/nvm.sh
-nvm install 9.6.1
+curl -sL https://rpm.nodesource.com/setup_9.x | bash -
+sudo yum install -y nodejs
 
 # install dependencies
-npm install -g forever
-npm install
+sudo npm install -g forever
+sudo npm install
