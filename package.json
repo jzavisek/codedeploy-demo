@@ -1,0 +1,13 @@
+{
+  "name": "code-deploy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/server.js",
+  "scripts": {
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "koa": "^2.5.0"
+  }
+}
